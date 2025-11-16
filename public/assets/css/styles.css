@@ -90,6 +90,16 @@ main h3 {
     position: absolute;
     bottom: 0;
 }
+#graf-link {
+    width: 90%;
+    height: 10vh;
+    border-radius: 20px;
+    background-color: #111;
+    font-size: 1.6em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 #artist-details img {
     width: 40vw;
     border-radius: 30px;
@@ -173,6 +183,9 @@ main h3 {
     font-size: inherit;
     font-family: inherit;
     margin-top: 10vh;
+}
+#chart-container {
+    width: 50%;
 }
 footer{
     width: 100%;

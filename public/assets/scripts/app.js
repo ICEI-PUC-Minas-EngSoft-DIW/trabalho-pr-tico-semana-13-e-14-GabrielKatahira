@@ -1,3 +1,4 @@
+
 let artistas = [];
 let albumId;
 async function reloadData() {
@@ -7,6 +8,7 @@ async function reloadData() {
     try{loadGrid()} catch(e){console.error(e)}
     try{loadCarousel()} catch(e){console.error(e)}
     try{loadArtist()} catch(e){console.error(e)}
+    try{loadCharts()} catch(e){console.error(e)}
 }
 
 const container= document.getElementById("artist-carousel");
@@ -177,7 +179,6 @@ async function createArtist() {
             .trim()
         )
     })
-    console.log(singerData,genreData)
     const artistData = {
         nome:name,
         idioma:language,
@@ -204,6 +205,68 @@ async function createArtist() {
     } catch(e) {
         alert('Erro:'+e);
     }
+}
+async function loadCharts() {
+    let genres = {};
+    let singers = {};
+    artistas.forEach(artista => {
+        artista.generos.forEach(genre => {
+            genres[genre] = (genres[genre] || 0) + 1;
+        });
+        artista.vocaloids.forEach(singer => {
+            singers[singer] = (singers[singer] || 0) + 1;
+        })
+    });
+    let genreMap = new Map(Object.entries(genres));
+    let singerMap = new Map(Object.entries(singers));
+
+    genreChart = document.getElementById("genre-chart").getContext('2d');
+    singerChart = document.getElementById("singer-chart").getContext('2d');
+    new Chart(genreChart, {
+        type: 'bar',
+        data: {
+            labels: Array.from(genreMap.keys()),
+            datasets: [{
+                label:'Artistas',
+                data: Array.from(genreMap.values()),
+                borderWidth: 1
+            }]
+        },
+        options: {
+            responsive: true,
+            scales: {
+                y: {
+                    beginAtZero: true,
+                    ticks: {
+                        stepSize: 1
+                    }
+                }
+            }
+        }
+    })
+    new Chart (singerChart, {
+        type: 'pie',
+        data: {
+            labels: Array.from(singerMap.keys()),
+            datasets: [{
+                label:'Artistas',
+                data: Array.from(singerMap.values()),
+                borderWidth: 1
+            }]
+        },
+        options: {
+            responsive: true,
+            scales: {
+                y: {
+                    beginAtZero: true,
+                    ticks: {
+                        stepSize: 1
+                    }
+                }
+            }
+        }
+    })
+    
 }
 window.onload = (() => {
     reloadData();

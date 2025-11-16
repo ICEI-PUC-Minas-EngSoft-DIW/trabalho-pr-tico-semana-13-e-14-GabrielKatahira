@@ -9,15 +9,15 @@ Sugerimos o uso das seguintes ferramentas acessíveis: [FullCalendar](https://fu
 
 ## Informações do trabalho
 
-- Nome:
-- Matricula:
-- Proposta de projeto escolhida:
-- Breve descrição sobre seu projeto:
+- Nome: Gabriel Katahira Cordeiro
+- Matricula: 899301
+- Proposta de projeto escolhida:1. Pessoas e Produções
+- Breve descrição sobre seu projeto: Um site que coleta e categoriza diversos artistas Vocaloid, de acordo com gênero, idioma e principais Vocaloids. Vocaloid é um software que é usado, principalmente por artistas japoneses, para poder sintetizar vozes para integrar em suas músicas. O software conta com diversos Vocaloids diferentes, que representam vozes diferentes.
 
 **Print da tela com a implementação**
 
-<< Coloque aqui uma breve explicação da implementação feita nessa etapa>>
+Uso do Chart.js para registrar os principais Gêneros e Vocaloids utilizados por todos os artistas
 
-<<  COLOQUE A IMAGEM TELA 1 AQUI >>
+![print1](public/print1.png)
 
-<<  COLOQUE A IMAGEM TELA 2 AQUI >>
+![print2](public/print2.png)
