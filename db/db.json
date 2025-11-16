@@ -1,18 +1,345 @@
 {
-  "usuarios": [
+  "artistas": [
     {
-      "id": "187cb7e5-e097-4224-8bc7-b610c855e2b1",
-      "login": "admin",
-      "senha": "123",
-      "nome": "Administrador do Sistema",
-      "email": "admin@abc.com"
+      "id": 1,
+      "nome": "Maretu",
+      "idioma": "Japonês",
+      "generos": [
+        "Metal",
+        "Chiptune"
+      ],
+      "vocaloids": [
+        "Hatsune Miku"
+      ],
+      "image": "assets/img/art1.png",
+      "albuns": [
+        {
+          "id": 1,
+          "nome": "Coin Locker Baby",
+          "imagem": "assets/img/album1-1.png"
+        },
+        {
+          "id": 2,
+          "nome": "Koukatsu",
+          "imagem": "assets/img/album1-2.png"
+        },
+        {
+          "id": 3,
+          "nome": "SIU",
+          "imagem": "assets/img/album1-3.png"
+        }
+      ]
     },
     {
-      "id": "ec37c83d-4b7f-458d-9e10-3fda7d37cd3e",
-      "login": "user",
-      "senha": "123",
-      "nome": "Usuario Comum",
-      "email": "user@abc.com"
+      "id": 2,
+      "nome": "DECO*27",
+      "idioma": "Japonês",
+      "generos": [
+        "Pop Rock",
+        "Pop"
+      ],
+      "vocaloids": [
+        "Hatsune Miku",
+        "Gumi"
+      ],
+      "image": "assets/img/art2.png",
+      "albuns": [
+        {
+          "id": 1,
+          "nome": "GHOST",
+          "imagem": "assets/img/album2-1.png"
+        },
+        {
+          "id": 2,
+          "nome": "MANNEQUIN",
+          "imagem": "assets/img/album2-2.png"
+        },
+        {
+          "id": 3,
+          "nome": "TRANSFORM",
+          "imagem": "assets/img/album2-3.jpg"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "nome": "PinocchioP",
+      "idioma": "Japonês",
+      "generos": [
+        "Electropop",
+        "Rock"
+      ],
+      "vocaloids": [
+        "Hatsune Miku"
+      ],
+      "image": "assets/img/art3.png",
+      "albuns": [
+        {
+          "id": 1,
+          "nome": "Non-Breath Oblige",
+          "imagem": "assets/img/album3-1.png"
+        },
+        {
+          "id": 2,
+          "nome": "U-Tuber",
+          "imagem": "assets/img/album3-2.jpg"
+        },
+        {
+          "id": 3,
+          "nome": "Fake Meme",
+          "imagem": "assets/img/album3-3.jpg"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "nome": "Jamie-P",
+      "idioma": "Inglês",
+      "generos": [
+        "Eletrônica",
+        "Hyperpop"
+      ],
+      "vocaloids": [
+        "Kasane Teto",
+        "Gumi"
+      ],
+      "image": "assets/img/art4.jpg",
+      "albuns": [
+        {
+          "id": 1,
+          "nome": "Constant Companions",
+          "imagem": "assets/img/album4-1.jpg"
+        },
+        {
+          "id": 2,
+          "nome": "BUTCHER VANITY",
+          "imagem": "assets/img/album4-2.jpg"
+        },
+        {
+          "id": 3,
+          "nome": "Radiant Revival",
+          "imagem": "assets/img/album4-3.png"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "nome": "SAWTOWNE",
+      "idioma": "Japonês, Inglês",
+      "generos": [
+        "Eletrônica",
+        "Hyperpop"
+      ],
+      "vocaloids": [
+        "Hatsune Miku"
+      ],
+      "image": "assets/img/art5.jpg",
+      "albuns": [
+        {
+          "id": 1,
+          "nome": "M@GICAL CURE! LOVE SHOT!",
+          "imagem": "assets/img/album5-1.jpg"
+        },
+        {
+          "id": 2,
+          "nome": "Confessions of a Rotten Girl",
+          "imagem": "assets/img/album5-2.jpg"
+        },
+        {
+          "id": 3,
+          "nome": "Brainstorm",
+          "imagem": "assets/img/album5-3.jpg"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "nome": "iyowa",
+      "idioma": "Japonês",
+      "generos": [
+        "Experimental",
+        "Jazz"
+      ],
+      "vocaloids": [
+        "Hatsune Miku",
+        "V Flower"
+      ],
+      "image": "assets/img/art6.png",
+      "albuns": [
+        {
+          "id": 1,
+          "nome": "WATASHI NO HERITAGE",
+          "imagem": "assets/img/album6-1.png"
+        },
+        {
+          "id": 2,
+          "nome": "Kyu-kurarin",
+          "imagem": "assets/img/album6-2.png"
+        },
+        {
+          "id": 3,
+          "nome": "The Peachy Key",
+          "imagem": "assets/img/album6-3.jpg"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "nome": "balloon",
+      "idioma": "Japonês",
+      "generos": [
+        "Rock Alternativo",
+        "Rock"
+      ],
+      "vocaloids": [
+        "Hatsune Miku",
+        "V Flower"
+      ],
+      "image": "assets/img/art7.jpg",
+      "albuns": [
+        {
+          "id": 1,
+          "nome": "Corridor",
+          "imagem": "assets/img/album7-1.png"
+        },
+        {
+          "id": 2,
+          "nome": "Fall Apart",
+          "imagem": "assets/img/album7-2.jpg"
+        },
+        {
+          "id": 3,
+          "nome": "Wind over the flower",
+          "imagem": "assets/img/album7-3.png"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "nome": "40mP",
+      "idioma": "Japonês",
+      "generos": [
+        "Pop Rock",
+        "Soft Rock"
+      ],
+      "vocaloids": [
+        "Hatsune Miku",
+        "Gumi"
+      ],
+      "image": "assets/img/art8.png",
+      "albuns": [
+        {
+          "id": 1,
+          "nome": "41m",
+          "imagem": "assets/img/album8-1.png"
+        },
+        {
+          "id": 2,
+          "nome": "The Problem Einstein couldn't solve",
+          "imagem": "assets/img/album8-2.png"
+        },
+        {
+          "id": 3,
+          "nome": "Short Story",
+          "imagem": "assets/img/album8-3.png"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "nome": "GHOST AND PALS",
+      "idioma": "Inglês",
+      "generos": [
+        "Experimental",
+        "Industrial"
+      ],
+      "vocaloids": [
+        "Yohioloid",
+        "Gumi"
+      ],
+      "image": "assets/img/art9.jpg",
+      "albuns": [
+        {
+          "id": 1,
+          "nome": "Reckless Battery Burns",
+          "imagem": "assets/img/album9-1.png"
+        },
+        {
+          "id": 2,
+          "nome": "LAUGHTRACK",
+          "imagem": "assets/img/album9-2.jpg"
+        },
+        {
+          "id": 3,
+          "nome": "higanbana milk tea",
+          "imagem": "assets/img/album9-3.png"
+        }
+      ]
+    },
+    {
+      "nome": "MIMI",
+      "idioma": "Japonês",
+      "generos": [
+        "Ballad",
+        "J-Pop"
+      ],
+      "vocaloids": [
+        "Hatsune Miku"
+      ],
+      "image": "assets/img/art10.jpg",
+      "albuns": [
+        {
+          "nome": "Album 1",
+          "imagem": "assets/img/album1-3.png",
+          "id": "1"
+        },
+        {
+          "nome": "Album 2",
+          "imagem": "assets/img/album2-3.jpg",
+          "id": "2"
+        },
+        {
+          "nome": "Album 3",
+          "imagem": "assets/img/album3-2.jpg",
+          "id": "3"
+        },
+        {
+          "nome": "Album 4",
+          "imagem": "assets/img/album3-3.jpg",
+          "id": "4"
+        }
+      ],
+      "id": 10
+    },
+    {
+      "nome": "Hachi",
+      "idioma": "Japonês",
+      "generos": [
+        "JRock",
+        "JPop"
+      ],
+      "vocaloids": [
+        "Hatsune Miku"
+      ],
+      "image": "assets/img/art11.jpg",
+      "albuns": [
+        {
+          "nome": "Album 1",
+          "imagem": "assets/img/album4-2.jpg",
+          "id": "1"
+        },
+        {
+          "nome": "Album 2",
+          "imagem": "assets/img/album2-3.jpg",
+          "id": "2"
+        },
+        {
+          "nome": "Album 3",
+          "imagem": "assets/img/album1-3.png",
+          "id": "3"
+        }
+      ],
+      "id": 11
     }
   ]
 }

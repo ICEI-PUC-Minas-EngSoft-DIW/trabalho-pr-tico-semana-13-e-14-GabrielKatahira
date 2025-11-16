@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <title>Vocategory</title>
+</head>
+<body>
+    <header>
+        <h1><a href="index.html">Vocategory</a></h1>
+    </header>
+    <main>
+        <h2>Cadastrar novo artista</h2>
+        <div id="line"></div>
+        <div id="artist-register">
+            <section>
+                <h3>Nome</h3>
+                <input type="text" id="artist-name">
+                <h3>Idioma</h3>
+                <input type="text" id="artist-language">
+                <h3>Gêneros</h3>
+                <input type="text" id="artist-genres">
+                <h3>Principais Vocaloids</h3>
+                <input type="text" id="artist-singers">
+            </section>
+            <h3>Imagem:</h3>
+            <img id="artist-image" src="assets/img/art1.png">
+            <select id="artist-image-select" onchange="updateImage(this.value,'artist-image')">
+                <option value="art1.png">Art1</option>
+                <option value="art2.png">Art2</option>
+                <option value="art3.png">Art3</option>
+                <option value="art4.jpg">Art4</option>
+                <option value="art5.jpg">Art5</option>
+                <option value="art6.png">Art6</option>
+                <option value="art7.jpg">Art7</option>
+                <option value="art8.png">Art8</option>
+                <option value="art9.jpg">Art9</option>
+                <option value="art10.jpg">Art10</option>
+                <option value="art11.jpg">Art11</option>
+                <option value="art12.png">Art12</option>
+            </select>
+            <h3>Álbuns:</h3>
+            <div id="artist-albums">
+                <button onclick="createAlbum()">Criar Album</div>
+            </div>
+            <button id="create-artist" onclick="createArtist()">Criar Artista</button>
+        </div>
+    </main>
+    <script src="assets/scripts/app.js"></script>
+</body>
+</html>
